@@ -5,7 +5,8 @@
     "dev": "next dev",
     "start": "next start",
     "format": "prettier --write --ignore-path .prettierignore \"**/*.{js,ts,tsx,jsx,json,css,scss,md}\"",
-    "seed": "node -r dotenv/config ./scripts/seed.js"
+    "seed": "node -r dotenv/config ./scripts/seed.js",
+    "lint": "next lint"
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
